@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(https://smktarunabhakti.net/wp-content/uploads/2023/11/20231002_141528-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-container {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    margin-left: 55vh;
+}
+
+.logo-sekolah {
+    width: 50px;
+    height: 50px;
+}
+.content-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border: 20px solid white;
+    width: 60%;
+    margin: 50px auto;
+}
+
+
+.content-container img {
+    margin-top:35px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border:10px solid #87CEFA;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.bio-info{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.biodata-flex .row {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    width: 220px; 
+}
+
+.value {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.marquee-teks {
+    position: absolute;
+    left: 345px;
+    top: 150px;
+    margin-left: 10vh;
+        width: 100%; 
+        max-width: 250px; 
+        margin: 10px auto; 
+        overflow: hidden; 
+        white-space: nowrap; 
+        padding: 10px; 
+    
+}
